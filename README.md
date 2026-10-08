@@ -1,5 +1,7 @@
 # Multiobjective Optimization for Structural-Aware Sequence Alignment of Transmembrane Proteins
 
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23243974.svg)](https://doi.org/10.5281/zenodo.23243974)
+
 _An optimization framework integrating AlphaFold2-guided structural constraints._
 
 ## 📌 Overview
@@ -19,15 +21,22 @@ TM-M2StructAlign is maintained together with the benchmark dataset and the manus
 | Resource | Repository |
 | --- | --- |
 | **TM-M2StructAlign source code** | [TM-M2StructAlign](https://github.com/TM-M2StructAlign/TM-M2StructAlign) |
-| **GPCR structural benchmark and experimental resources** | [Dataset_Structural_GPCRs](https://github.com/TM-M2StructAlign/Dataset_Structural_GPCRs) |
+| **GPCR structural benchmark and experimental resources** | [Dataset_Structural_GPCRs](https://github.com/TM-M2StructAlign/Dataset_Structural_GPCRs) · [Zenodo v1.0.0](https://doi.org/10.5281/zenodo.23243974) |
 | **Main manuscript and supplementary material** | [TM-M2StructAlign-Paper](https://github.com/JOELITO07/TM-M2StructAlign-Paper) |
 
 ### Related publications
 
 1. Cedeño-Muñoz, J., Zambrano-Vega, C., and Nebro, A. J. (2025). **TMP-M2Align: A Topology-Aware Multiobjective Approach to the Multiple Sequence Alignment of Transmembrane Proteins.** *Algorithms*, 18(10), 640. [https://doi.org/10.3390/a18100640](https://doi.org/10.3390/a18100640)
 2. Cedeño-Muñoz, J., Zambrano-Vega, C., and Nebro, A. J. **TM-M2StructAlign: A Multiobjective Tool for Structure-Guided Multiple Sequence Alignment of G Protein-Coupled Receptors Using AlphaFold2-Derived Constraints.** Manuscript prepared for *Computational Biology and Chemistry*. Source and supplementary material: [TM-M2StructAlign-Paper](https://github.com/JOELITO07/TM-M2StructAlign-Paper).
+3. Zambrano-Vega, C., Cedeño-Muñoz, J., and Nebro, A. J. (2026). **A Curated Dataset of Human GPCR Sequences, AlphaFold-Predicted Structures, Transmembrane Topologies, and Reference Alignments for Structural Bioinformatics** (Version 1.0.0) [Dataset]. Zenodo. [https://doi.org/10.5281/zenodo.23243974](https://doi.org/10.5281/zenodo.23243974).
 
 A companion data article documenting the benchmark resource is maintained in [TM-M2StructAlign_Dataset_paper](https://github.com/JOELITO07/TM-M2StructAlign_Dataset_paper).
+
+### Versioned benchmark dataset
+
+The benchmark dataset associated with TM-M2StructAlign is versioned as **v1.0.0** and assigned the version-specific Zenodo DOI **[10.5281/zenodo.23243974](https://doi.org/10.5281/zenodo.23243974)**. The corresponding GitHub release is [Dataset_Structural_GPCRs v1.0.0](https://github.com/TM-M2StructAlign/Dataset_Structural_GPCRs/releases/tag/v1.0.0), based on source snapshot `75287f1da907248aa29b8fb5adf17a4c63891797`.
+
+For reproducible analyses, cite the Zenodo version-specific DOI and use the archived v1.0.0 dataset snapshot rather than a later state of the live GitHub repository.
 
 ---
 
