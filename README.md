@@ -12,6 +12,25 @@ This project implements a transmembrane protein sequence alignment framework com
 
 The major innovation is the **Structural Aware Alignment** module, which incorporates structural data into alignments and evaluates solutions with metrics such as TM-score, RMSD, or predicted topologies.
 
+## Project ecosystem
+
+TM-M2StructAlign is maintained together with the benchmark dataset and the manuscript sources:
+
+| Resource | Repository |
+| --- | --- |
+| **TM-M2StructAlign source code** | [TM-M2StructAlign](https://github.com/TM-M2StructAlign/TM-M2StructAlign) |
+| **GPCR structural benchmark and experimental resources** | [Dataset_Structural_GPCRs](https://github.com/TM-M2StructAlign/Dataset_Structural_GPCRs) |
+| **Main manuscript and supplementary material** | [TM-M2StructAlign-Paper](https://github.com/JOELITO07/TM-M2StructAlign-Paper) |
+
+### Related publications
+
+1. Cedeño-Muñoz, J., Zambrano-Vega, C., and Nebro, A. J. (2025). **TMP-M2Align: A Topology-Aware Multiobjective Approach to the Multiple Sequence Alignment of Transmembrane Proteins.** *Algorithms*, 18(10), 640. [https://doi.org/10.3390/a18100640](https://doi.org/10.3390/a18100640)
+2. Cedeño-Muñoz, J., Zambrano-Vega, C., and Nebro, A. J. **TM-M2StructAlign: A Multiobjective Tool for Structure-Guided Multiple Sequence Alignment of G Protein-Coupled Receptors Using AlphaFold2-Derived Constraints.** Manuscript prepared for *Computational Biology and Chemistry*. Source and supplementary material: [TM-M2StructAlign-Paper](https://github.com/JOELITO07/TM-M2StructAlign-Paper).
+
+A companion data article documenting the benchmark resource is maintained in [TM-M2StructAlign_Dataset_paper](https://github.com/JOELITO07/TM-M2StructAlign_Dataset_paper).
+
+---
+
 ## Key Features
 
 1. **Alignment strategies**
@@ -48,7 +67,7 @@ The major innovation is the **Structural Aware Alignment** module, which incorpo
 
 ```bash
 # Requires Java 17+ and Maven
-git clone https://.../TM-M2StructAlign.git
+git clone https://github.com/TM-M2StructAlign/TM-M2StructAlign.git
 cd TM-M2StructAlign
 mvn clean package
 ```
